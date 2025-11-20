@@ -46,9 +46,15 @@ const Studiefag = () => {
         { 0: { name: "Norsk", timer: 4 }, 1: { name: "Historie", timer: 2 }, 2: { name: "Matte", timer: 3 }, 3: { name: "Fremmedspråk", timer: 4 }, 4: { name: "Gym", timer: 2 }, 5: { name: "Programfag fra eget programområde", timer: 15 }, name: "VG2", fag: 6, id: 1, year: 2 },
         { 0: { name: "Norsk", timer: 6 }, 1: { name: "Historie", timer: 4 }, 2: { name: "Religion og etikk", timer: 3 }, 3: { name: "Gym", timer: 2 }, 4: { name: "Programfag fra eget programområde", timer: 10 }, 5: { name: "Valgfritt programfag", timer: 5 }, name: "VG3", fag: 6, id: 2, year: 3 },
 
-        { 0: { name: "Norsk", timer: 10 }, 1: { name: "Historie", timer: 5 }, 2: { name: "Matte", timer: 5 }, 3: { name: "Naturfag", timer: 3 }, 4: { name: "Gym", timer: 2 }, 5: { name: "Valgfritt programfag", timer: 5 }, name: "Påbygg (VG3)", fag: 6, id: 0, year: 4 },
+        //{ 0: { name: "Norsk", timer: 10 }, 1: { name: "Historie", timer: 5 }, 2: { name: "Matte", timer: 5 }, 3: { name: "Naturfag", timer: 3 }, 4: { name: "Gym", timer: 2 }, 5: { name: "Valgfritt programfag", timer: 5 }, name: "Påbygg (VG3)", fag: 6, id: 0, year: 4 },
       ]
     },
+        5: {
+      name: "Påbygg",
+      year_data: [
+        { 0: { name: "Norsk", timer: 10 }, 1: { name: "Historie", timer: 5 }, 2: { name: "Matte", timer: 5 }, 3: { name: "Naturfag", timer: 3 }, 4: { name: "Gym", timer: 2 }, 5: { name: "Valgfritt programfag", timer: 5 }, name: "Påbygg (VG3)", fag: 6, id: 0, year: 4 },
+      ]
+    }
   }
 
 
