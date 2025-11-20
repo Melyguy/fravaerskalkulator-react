@@ -148,16 +148,12 @@ const Calculator = ({ fag_data, studiefag }) => {
 
       <div id="percents">
         <div>
-          <strong>Hele året:</strong>
+          <strong>Fravær i prosent:</strong>
           {wholePercent > 10 ? <p style={{ color: '#FF0000' }}>{wholePercent}%</p> : wholePercent > 5 ? <p style={{ color: '#ff8c00' }}>{wholePercent}%</p> : <p>{wholePercent}%</p>}
           {wholePercent > 10 ? <p>❗</p> : wholePercent > 5 ? <p>⚠️</p> : <p></p>}
         </div>
 
-        <div>
-          <strong>Halvår:</strong>
-          {halfPercent > 20 ? <p style={{ color: '#FF0000' }}>{halfPercent}%</p> : halfPercent > 10 ? <p style={{ color: '#ff8c00' }}>{halfPercent}%</p> : <p>{halfPercent}%</p>}
-          {halfPercent > 20 ? <p>❗</p> : halfPercent > 10 ? <p>⚠️</p> : <p></p>}
-        </div>
+
       </div>
 
 

@@ -85,11 +85,6 @@ function App() {
           <strong>Hele året:</strong>
           <p>{wholePercent}%</p>
         </div>
-
-        <div>
-          <strong>Halvår:</strong>
-          <p>{halfPercent}%</p>
-        </div>
       </div>
     </div>
   );
