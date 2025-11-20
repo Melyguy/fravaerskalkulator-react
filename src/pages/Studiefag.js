@@ -51,7 +51,7 @@ const Studiefag = () => {
       name: "Påbygg",
       year_data: [
         { 0: { name: "Norsk", timer: 10 }, 1: { name: "Historie", timer: 5 }, 2: { name: "Matte", timer: 5 }, 3: { name: "Naturfag", timer: 3 }, 4: { name: "Gym", timer: 2 }, 5: { name: "Valgfritt programfag", timer: 5 }, name: "Påbygg (VG3)", fag: 6, id: 0, year: 4 },
-        { 0: { name: "Norsk", timer: 10 }, 1: { name: "Historie", timer: 5 }, 2: { name: "Matte", timer: 5 }, 3: { name: "Naturfag", timer: 3 }, name: "Påbygg (VG4)", fag: 4, id: 0, year: 4 },
+        { 0: { name: "Norsk", timer: 10 }, 1: { name: "Historie", timer: 5 }, 2: { name: "Matte", timer: 5 }, 3: { name: "Naturfag", timer: 3 }, name: "Påbygg etter fullført læretid (VG4)", fag: 4, id: 0, year: 4 },
       ]
     }
   }

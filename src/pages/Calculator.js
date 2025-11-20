@@ -134,7 +134,7 @@ const Calculator = ({ fag_data, studiefag }) => {
           }
         </select><br /><br /><br />
 
-        <label htmlFor="fag">Hvilket fag skal du ta fri?</label><br />
+        <label htmlFor="fag">Hvilket fag skal du ta fri fra?</label><br />
         <select name="fag" id="fag" onChange={handleFagChange}>
           {optionsArray}
         </select><br /><br /><br />
