@@ -69,6 +69,8 @@ const Home = ({ redirect }) => {
         <a href="/yrkesfag/8?linjeId=8"> <div className="yrkesfag_button_home" id="linje_page_buttons"> <h2>Salg, service og reiseliv</h2> </div> </a>
         <a href="/yrkesfag/9?linjeId=9"> <div className="yrkesfag_button_home" id="linje_page_buttons"> <h2>Teknologi- og industrifag</h2> </div> </a>
       </div>
+
+    
     </div>
   )
 }
